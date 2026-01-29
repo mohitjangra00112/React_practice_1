@@ -11,7 +11,7 @@ function App() {
 
 {/* {!isLogged ? <Login isLogged={isLogged} setIsLogged={setIsLogged}  /> : <Logout isLogged={isLogged} setIsLogged={setIsLogged} />} */}
 {!isLogged ? <Login setIsLogged={setIsLogged}  /> : <Logout setIsLogged={setIsLogged} />}
-   
+   <p>Setup local git config</p>
     </>
   )
 }
